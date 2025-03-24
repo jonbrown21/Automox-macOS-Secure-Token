@@ -23,6 +23,5 @@ launchctl asuser "$(id -u "$user")" /usr/local/bin/amagent --automox-user-prompt
 
 sysadminctl -secureTokenStatus _automoxserviceaccount
 
-sudo /usr/local/bin/amagent --setkey c3e2110f-0a7f-46ed-aa73-6b9c317f4659
 sudo launchctl bootstrap system /Library/LaunchDaemons/com.automox.agent.plist
 sudo launchctl kickstart -k system/com.automox.agent
