@@ -13,7 +13,7 @@ user=$(stat -f %Su /dev/console)
 
 sleep 1
 
-curl -sS "https://console.automox.com/downloadInstaller?accesskey=c3e2110f-0a7f-46ed-aa73-6b9c317f4659" | sudo bash
+curl -sS "https://console.automox.com/downloadInstaller?accesskey=<YOUR KEY HERE>" | sudo bash
 
 sleep 1
 
